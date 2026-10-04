@@ -3,6 +3,7 @@
 # WITHOUT using the built-in sum() or max().
 
 numbers = [12, 7, 25, 3, 18]
+# numbers = [-5,-2,-9]
 
 
 def sum_and_largest(nums):
@@ -10,17 +11,21 @@ def sum_and_largest(nums):
     largest = nums[0]  # start with the first number
 
     for n in nums:
-        # TODO 1: add n to total
-        # TODO 2: if n is bigger than largest, update largest
-        pass
+        total = total + n # TODO 1: add n to total
+        if n > largest: # TODO 2: if n is bigger than largest, update largest
+            largest = n
 
     return total, largest
 
-
-result_sum, result_max = sum_and_largest(numbers)
+total, largest = sum_and_largest(numbers)
 print("Numbers:", numbers)
-print("Sum:", result_sum)
-print("Largest:", result_max)
+print("Sum:", total)
+print("Largest:", largest)
+
+# result_sum, result_max = sum_and_largest(numbers)
+# print("Numbers:", numbers)
+# print("Sum:", result_sum)
+# print("Largest:", result_max)
 
 # Expected output:
 # Numbers: [12, 7, 25, 3, 18]
