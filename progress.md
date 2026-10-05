@@ -17,10 +17,10 @@ Plan: see PLAN.md. Update this file at the end of each study session (2 minutes)
 
 ## 2026-10-06 (Week 1, Day 3)
 
-- Task: dictionary of 5 employees and salaries; print those above the average
-- Done:
-- Confused about:
-- Next:
+- Task: dictionary of 4 employees and salaries; print those above the average
+- Learned: dictionaries, .values(), .items(), for loop with if
+- Confused about: Salaries.values() and Average and How .items() works.
+- Next:Day 4 - functions (reuse the average code in a function)
 
 ---
 
